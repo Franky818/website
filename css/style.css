@@ -1,5 +1,10 @@
 body {
     background-color: #F29A2E;
+    font-size: 20px;
+    line-height;
+    1.5;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -8,6 +13,31 @@ body {
     padding: 0;
     height: 20px;
 }*/
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.dark {
+    padding: 15px;
+    background: #34524a;
+    color: ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*header*/
+
+.header {
+    background: #34524a;
+    color: #ffffff;
+    padding-top: 10px 10px;
+    min-height: 40px;
+    border-botom: #34524a 3px solid;
+}
 
 nav ul {
     border: 0;
@@ -62,4 +92,49 @@ nav li#active a {
     content: "";
     display: table;
     clear: both;
+}
+
+
+/* Boxes */
+
+#boxes {
+    marging-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    width: 60%;
+    padding: 15px:
+}
+
+#boxes .box img {
+    width: 500px
+}
+
+#colors .color img {
+    width: 300px
+}
+
+
+/* Sidebar*/
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+
+/*Main-col*/
+
+article#main-col {
+    float: left;
+    width: 50%;
+}
+
+footer {
+    padding: 25px;
+    margin-top: 25px;
+    color: #ffffff;
+    text-align: center;
 }
