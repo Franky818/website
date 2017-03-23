@@ -11,53 +11,65 @@
 
     <title>home</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+
     <style>
-        p {
+        /*p {
             border: 1px solid powderblue;
             margin: 10px;
-        }
+        }*/
     </style>
 
 </head>
 
 <body>
     <div class="container">
-        <header>
-            <section id="logos">
-                <div class="container">
+        <header class="group">
+            <img src="./images/fg-logo.png" class="logo">
 
-                    <div class="logo">
-                        <img src="./images/fg1.png">
-                    </div>
-            </section>
-            <h1>Events</h1>
+            <h1 class="page-title">Events</h1>
         </header>
 
         <nav class="group">
             <ul class="nav-list">
-                <li class="active"><a href="#" id="current">Home</a></li>
+                <li class="active"><a href="index.html" id="current">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="artist.html">Artist</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="tags.html">Events</a></li>
+                <li><a href="events.html">Events</a></li>
             </ul>
         </nav>
-        </div>
-        <!-- END .container -->
+
 
         <main>
-            <h1>Event 1</h1>
-            <p>-Los Angeles<br>12345 Street<br>Los Angeles , California<br>90015</p>
-            <hr>
+            <ul class="events">
+                <li>Event 1
+                    <ul>
+                        <li>Date</li>
+                        <li>Time</li>
+                        <li>Description</li>
+                    </ul>
+                </li>
+                <li class="event-two">Event 2
+                    <ul>
+                        <li>Date</li>
+                        <li>Time</li>
+                        <li>Description</li>
+                    </ul>
+                </li>
+                <li class="event-three">Event 3
+                    <ul>
+                        <li>Date</li>
+                        <li>Time</li>
+                        <li>Description</li>
+                    </ul>
+                </li>
+            </ul>
 
-            <h2>Event 2</h2>
-            <p>-San Diego<br>67890 Street<br>San Diego , California<br>91911</p>
-            <hr>
-
-            <h2>Event 3</h2>
-            <p>-San Francisco<br>10112 Street<br>San Francisco , California<br>94105</p>
         </main>
-
+    </div>
+    <!-- END .container -->
 </body>
 
 </html>
